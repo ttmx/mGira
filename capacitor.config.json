@@ -1,0 +1,17 @@
+{
+  "appId": "dev.tteles.gira",
+  "appName": "GiraM",
+  "webDir": "dist",
+  "bundledWebRuntime":true,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
